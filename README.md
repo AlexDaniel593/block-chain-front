@@ -10,9 +10,9 @@ A simple blockchain implementation in React
 
 ### Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/AlexDaniel593/block-chain-front.git
-   ```
+```bash
+git clone https://github.com/AlexDaniel593/block-chain-front.git
+```
    
 Navigate to the project directory:
 
