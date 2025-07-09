@@ -1,0 +1,102 @@
+/* Estilos para HomePage */
+.homepage {
+    min-height: 100vh;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    font-weight: bold;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    margin: 0;
+    opacity: 0.9;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.content-section {
+    display: grid;
+    gap: 2rem;
+    align-items: start;
+}
+
+.content-section.with-login {
+    grid-template-columns: 1fr 2fr;
+}
+
+.content-section.info-only {
+    grid-template-columns: 1fr;
+}
+
+.content-section.info-only .info-section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.login-section {
+    position: sticky;
+    top: 120px;
+}
+
+.info-section {
+    margin-top: 0;
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+    .content-section.with-login {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .login-section {
+        position: static;
+        order: 1;
+    }
+    
+    .info-section {
+        order: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 2rem 1rem;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        padding: 1.5rem 1rem;
+    }
+    
+    .hero-title {
+        font-size: 1.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 0.9rem;
+    }
+}

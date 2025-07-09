@@ -1,0 +1,105 @@
+/* Estilos para LegalPage */
+.legal-page {
+    min-height: 100vh;
+}
+
+.legal-content {
+    display: flex;
+    justify-content: center;
+}
+
+.legal-sections {
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+.legal-section {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.legal-section:last-child {
+    border-bottom: none;
+}
+
+.legal-section h2 {
+    color: #2c3e50;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    border-left: 4px solid #667eea;
+}
+
+.legal-section p {
+    color: #666;
+    line-height: 1.8;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.contact-info {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 1.5rem;
+    border-radius: 15px;
+    border: 1px solid #dee2e6;
+    margin-top: 2rem;
+}
+
+.contact-info h2 {
+    color: #2c3e50;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    border: none;
+    padding: 0;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+}
+
+.contact-info li {
+    color: #495057;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background: white;
+    border-radius: 8px;
+    border-left: 3px solid #667eea;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .legal-sections {
+        padding: 1.5rem;
+        margin: 0 15px;
+    }
+    
+    .legal-section h2 {
+        font-size: 1.3rem;
+    }
+    
+    .contact-info {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .legal-sections {
+        padding: 1rem;
+        margin: 0 10px;
+    }
+    
+    .legal-section h2 {
+        font-size: 1.2rem;
+    }
+    
+    .legal-section p {
+        font-size: 0.9rem;
+    }
+}
