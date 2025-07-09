@@ -1,12 +1,27 @@
-# React + Vite
+# Blockchain Implementation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple blockchain implementation in React
 
-Currently, two official plugins are available:
+## 🚀 Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
+- Node.js (v14 or higher recommended)
+- npm (usually comes with Node.js)
 
-## Expanding the ESLint configuration
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/block-chain.git](https://github.com/AlexDaniel593/block-chain-front.git)
+   ```
+   
+Navigate to the project directory:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+cd block-chain
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
