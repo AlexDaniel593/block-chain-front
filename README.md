@@ -17,7 +17,7 @@ git clone https://github.com/AlexDaniel593/block-chain-front.git
 Navigate to the project directory:
 
 ```bash
-cd block-chain
+cd block-chain-front
 ```
 
 Install dependencies:
